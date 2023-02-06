@@ -1,1 +1,1 @@
-# point-of-sales-system-with-print
+The Point of  sales System is developed using Java and mysql. The project is built to manage  items and transactions. To make a new transaction, fields such as: product name, qty and payment needs to be selected.
