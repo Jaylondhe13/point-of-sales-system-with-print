@@ -108,6 +108,7 @@ Contributions to the project are welcome. To contribute, please fork the reposit
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 - Thanks to the creators of Java and MySQL for providing the tools to build this project.
 - Thanks to my mentor for their guidance and support during the development of this project.
+- Thanks to [Skill-lync](https://skill-lync.com/) who gave me this opportunity.
 
 
 ## Screenshots
