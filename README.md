@@ -48,27 +48,12 @@ Once you have Java JDK and MySQL installed, you will also need to create a datab
 
 
 ### Installing
-A step by step series of examples that tell you how to get a development env running.
-Say what the step will be
+
+
 ```
-Follow these steps to get the development environment up and running:
-
-1. Clone the repository to your local machine:
-git clone https://github.com/your-username/point-of-sales-system.git
-
-2. Open the project in your preferred Java IDE, such as Eclipse or IntelliJ.
-
-3. Open the src/main/java/com/example/pos/config/DatabaseConfig.java file and modify the database connection settings as needed.
-
-4. Build the project by running the mvn clean install command in the project directory.
-
-5. After building the project, locate the target/point-of-sales-system.jar file and run it using the following command:
-java -jar point-of-sales-system.jar
-
-6. The point-of-sales system should now be running. You should see the login screen where you can log in using the default administrator credentials:
-
-- Username: admin
-- Password: password123
+1. Clone the repository: git clone https://github.com/your-username/point-of-sales-system-with-print.git
+2. Create the database and import the database.sql file
+3. Open the project in your IDE and update the database connection settings in the Database.java file
 
 That's it! You should now be able to use the point-of-sales system. If you encounter any issues during installation or setup, 
 feel free to refer to the troubleshooting section or open an issue on GitHub.
@@ -87,3 +72,54 @@ To get started with the point-of-sales system, try adding a new product to the i
 Congratulations, you have successfully added a new product to the point-of-sales system! 
 You can continue exploring the system and its features by adding more products, creating new orders, and generating reports.
 ```
+
+
+## Deployment
+
+To deploy the system, you can create a JAR file and run it on any computer with Java installed.
+
+## 🎈 Usage <a name="usage"></a>
+
+The system has a user-friendly GUI that allows users to manage sales and inventory, and print receipts. The main features of the system are:
+
+- Manage products: add, edit, and delete products
+- Manage customers: add, edit, and delete customers
+- Manage sales: create new sales, view sales history, and print receipts
+- Manage inventory: view and update product quantities
+
+## ⛏️ Built Using <a name = "built_using"></a>
+
+- Java Swing
+- MySQL
+
+
+## TODO
+- Add support for multiple users and roles
+- Add support for multiple stores/locations
+- Improve UI/UX
+
+
+## Contributing
+Contributions to the project are welcome. To contribute, please fork the repository and create a pull request.
+
+## ✍️ Authors <a name = "authors"></a>
+- Jay Satish Londhe.
+
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+- Thanks to the creators of Java and MySQL for providing the tools to build this project.
+- Thanks to my mentor for their guidance and support during the development of this project.
+
+
+## Screenshots
+
+
+<div align = "center">
+  <img src = "https://user-images.githubusercontent.com/77278361/234475047-e232b92b-089e-4bc3-9e07-dfec612bccfb.png" alt = "Home" width = 70% height = 70%>
+  <br>
+  <br>
+  <h3>Order History</h3>
+  <img src = "https://user-images.githubusercontent.com/77278361/234476208-f7776915-00af-4653-8a07-ceb64bc3b22e.png" alt = "oderHistory" width = 70% height = 70%>
+  
+
+
+</div>
